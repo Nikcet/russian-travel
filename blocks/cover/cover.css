@@ -1,5 +1,6 @@
-.photo-grid {
+.cover {
   width: calc(100% - 7.5%);
   margin: 0 auto;
+  color: #fff;
   margin-bottom: 92px;
 }

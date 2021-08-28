@@ -5,3 +5,24 @@
   min-width: 320px;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .lead {
+    max-width: 100%;
+  }
+}

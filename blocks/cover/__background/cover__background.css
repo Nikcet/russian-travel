@@ -1,0 +1,12 @@
+.cover__background {
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+}
+
+.cover__background::after {
+  content: '';
+  padding-top: calc(740 / 1184 * 100%);
+}

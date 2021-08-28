@@ -7,3 +7,14 @@
   max-width: 560px;
   margin-bottom: 32px;
 }
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    max-width: 288px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 1.09;
+    padding: 0 24px;
+    box-sizing: border-box;
+    }
+}

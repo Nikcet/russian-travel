@@ -1,4 +1,40 @@
 .place__website {
   align-self: end;
   margin-left: 40px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__website {
+    margin-left: 32px;
+    width: 456px;
+  }
+}
+
+@media screen and (min-width: 861px) and (max-width: 1023px) {
+  .place__website {
+    margin-left: 32px;
+    width: calc(100% - 24px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 860px) {
+  .place__website {
+    margin-left: 28px;
+    width: calc(100% - 24px);
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .place__website {
+    margin-left: 28px;
+    width: calc(100% - 24px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+  }
 }

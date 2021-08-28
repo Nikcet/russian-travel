@@ -1,8 +1,26 @@
 .footer {
-  width: calc(100%-7.5%);
+  width: calc(100% - 96px);
   margin: 0 auto;
   color: #fff;
   margin-bottom: 24px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    width: calc(100% - 48px);
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .footer {
+    width: calc(100% - 32px);
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
+  .footer {
+    width: calc(100% - 32px);
+    flex-direction: column;
+  }
 }

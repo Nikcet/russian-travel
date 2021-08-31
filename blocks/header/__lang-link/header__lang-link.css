@@ -7,9 +7,11 @@
   padding: 16px 0 6px 0;
   margin-right: 18px;
 }
-.header__lang-link:nth-of-type(2) {
+
+.header__lang-link:last-of-type {
   margin-right: 0;
 }
+
 .header__lang-link:hover {
   text-decoration: underline;
 }

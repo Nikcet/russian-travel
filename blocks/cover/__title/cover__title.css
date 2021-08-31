@@ -8,13 +8,19 @@
   margin-bottom: 32px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .cover__title {
-    max-width: 288px;
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cover__title {
+    max-width: 100%;
     margin-bottom: 16px;
     font-size: 32px;
     line-height: 1.09;
     padding: 0 24px;
     box-sizing: border-box;
-    }
+  }
 }

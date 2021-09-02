@@ -2,6 +2,8 @@
   font-size: 14px;
   line-height: 1.14;
   text-align: right;
+  margin: 0;
+  min-width: 125px;
 }
 
 @media screen and (max-width: 425px) {

@@ -3,23 +3,14 @@
   min-width: 288px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .intro__content {
     max-width: 720px;
-    margin: 0 auto;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .intro__content {
-    max-width: calc(100% - 48px);
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .intro__content {
-    max-width: calc(100% - 32px);
     margin: 0 auto;
   }
 }
